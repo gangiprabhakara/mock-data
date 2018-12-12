@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebo:EBO xmlns:ebo="http://www.service.gap.com/SKUAssocEBO" xmlns:esb="http://service.gap.com/schemas/ESBHeader" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.service.gap.com/SKUAssocEBO SKUAssocEBO.xsd">
+<esb:ESBHeader>
+    <esb:EnvironmentName>PRODUCTION</esb:EnvironmentName>
+    <esb:VersionNbr>1.0</esb:VersionNbr>
+    <esb:BusinessEvent>
+        <esb:TransactionTypeCode>SkuAssocDelta</esb:TransactionTypeCode>
+        <esb:Timestamp>2018-12-11T14:41:51.889-07:00</esb:Timestamp>
+        <esb:EventID>ITEM_00000000000042456599</esb:EventID>
+        <esb:TotalRecordCount>1</esb:TotalRecordCount>
+    </esb:BusinessEvent>
+    <esb:SourceSystem>
+        <esb:DivisionID>1</esb:DivisionID>
+        <esb:ChannelID>2</esb:ChannelID>
+        <esb:AreaID>527</esb:AreaID>
+        <esb:StoreNbr/>
+        <esb:DCID/>
+        <esb:ApplicationName>EGW</esb:ApplicationName>
+    </esb:SourceSystem>
+    <esb:RoutingInformation>
+        <esb:Type>
+            <esb:RoutingTypeName>TRANSACTION</esb:RoutingTypeName>
+            <esb:Label>
+                <esb:LabelName>TRANSACTION_TYPE_CODE</esb:LabelName>
+                <esb:LabelValueText>SkuAssocDelta</esb:LabelValueText>
+            </esb:Label>
+        </esb:Type>
+        <esb:Type>
+            <esb:RoutingTypeName>INSTANCE</esb:RoutingTypeName>
+            <esb:Label>
+                <esb:LabelName>DIVISION</esb:LabelName>
+                <esb:LabelValueText>1</esb:LabelValueText>
+            </esb:Label>
+        </esb:Type>
+    </esb:RoutingInformation>
+    <esb:DatasetInfo>
+        <esb:TotalDatasetCount>1</esb:TotalDatasetCount>
+        <esb:DatasetNbr>1</esb:DatasetNbr>
+        <esb:DatasetSizeQty>1</esb:DatasetSizeQty>
+        <esb:KeyField1>312394729</esb:KeyField1>
+        <esb:KeyField2/>
+    </esb:DatasetInfo>
+</esb:ESBHeader>
+<ebo:EBOPayload>
+    <ebo:SKU ebo:ActionTypeCode="CREATE">
+        <ebo:BrandID>1</ebo:BrandID>
+        <ebo:AreaId>527</ebo:AreaId>
+        <ebo:MerchandiseeDivisionID>164</ebo:MerchandiseeDivisionID>
+        <ebo:MerchandiseeDepartmentID>1642</ebo:MerchandiseeDepartmentID>
+        <ebo:MerchandiseeClassID>8</ebo:MerchandiseeClassID>
+        <ebo:MerchandiseeSubclassID>2</ebo:MerchandiseeSubclassID>
+        <ebo:ItemID>312394729</ebo:ItemID>
+        <ebo:ItemStyleID>000473232</ebo:ItemStyleID>
+        <ebo:ItemStyleDesc>G FLIPPY SLIDE</ebo:ItemStyleDesc>
+        <ebo:ItemStyleColorId>000473232000</ebo:ItemStyleColorId>
+        <ebo:ItemAbbdrDesc>G FLIPPY SLIDE SILVR326 3</ebo:ItemAbbdrDesc>
+        <ebo:ItemDesc>G FLIPPY SLIDE SILVR326 3</ebo:ItemDesc>
+        <ebo:ColorDiffIID>C141877</ebo:ColorDiffIID>
+        <ebo:SizeDiffID>M38-0003</ebo:SizeDiffID>
+        <ebo:ItemSizeModelCode>M38</ebo:ItemSizeModelCode>
+        <ebo:ItemSizeCode>0003</ebo:ItemSizeCode>
+        <ebo:ColorDiffDesc>SILVER                        </ebo:ColorDiffDesc>
+        <ebo:SizeDiffDesc>3</ebo:SizeDiffDesc>
+        <ebo:ItemStatusCode>A</ebo:ItemStatusCode>
+        <ebo:VatInd>Y</ebo:VatInd>
+        <ebo:ItemUPCCode>500027144102</ebo:ItemUPCCode>
+        <ebo:VendorUPCCode/>
+        <ebo:StyleCode>473232</ebo:StyleCode>
+        <ebo:StyleColorCode>00</ebo:StyleColorCode>
+        <ebo:SizeModelCode>M38</ebo:SizeModelCode>
+        <ebo:SizeCode>0003</ebo:SizeCode>
+    </ebo:SKU>
+</ebo:EBOPayload>
+</ebo:EBO>
